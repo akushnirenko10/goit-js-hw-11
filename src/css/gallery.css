@@ -1,0 +1,41 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.gallery-item {
+  width: calc((100% - (24px * 2)) / 3);
+  border: 1px solid #808080;
+  box-sizing: border-box;
+}
+
+.gallery-item img {
+  height: 152px;
+  object-fit: cover;
+}
+
+.gallery-item a {
+  display: block;
+  width: 100%;
+}
+
+.gallery-text-wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding: 4px 0;
+}
+
+.likes {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  line-height: 2;
+}
+
+.likes span {
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
